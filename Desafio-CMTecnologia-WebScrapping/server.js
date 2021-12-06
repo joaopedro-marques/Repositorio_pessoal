@@ -22,7 +22,7 @@ server.get('/',  async(request, response) => {
             .map(complete => ({
                 text: complete.querySelector('.text').innerText.trim(),
                 author: complete.querySelector('.author').innerText.trim(),
-        })) )
+        })))
 
         const tags = await page.evaluate(() => 
         Array.from(document.querySelectorAll(`.tags`))
