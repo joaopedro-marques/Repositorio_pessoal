@@ -53,9 +53,25 @@ Para iniciar a aplicação e salvar os dados em um arquivo JSON na pasta de inst
 npm dev run
 ```
 
+Para obter o arquivo JSON com estrutura de dados necessária, acessar em algum navegador a url abaixo:
+
+```
+http://localhost:3000
+```
+
 ## 📦 Desenvolvimento
 
 Esse código é uma alternativa para se realizar scrapping dos quotes da página "Quotes to Scrape". Essa não é a unica forma de se fazer e o código está sempre em revisão com o objetivo de refatorá-lo, tornando-o mais limpo e performático.
+
+O arquivo gerado segue a estrutura de dados abaixo:
+
+```
+{
+    "text":"String"
+    "author":"String"
+    "tags":[...,"String"]
+}
+```
 
 ## 🛠️ Construído com
 

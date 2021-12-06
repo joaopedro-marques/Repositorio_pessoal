@@ -42,7 +42,7 @@ server.get('/',  async(request, response) => {
     
 
     await browser.close();
-    response.send(quotesFinal);
+    response.send("Verificar pasta de instalação, arquivo Quotes.json gerado!");
 })
 
 const port = 3000;
